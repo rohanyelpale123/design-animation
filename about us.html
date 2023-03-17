@@ -1,0 +1,39 @@
+.image {
+	position: relative;
+	margin-top: 200px;
+}
+.image i{
+	margin-top: 10px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	font-size: 70px;
+
+}
+.image h1{
+	font-size: 60px;
+}
+.image i:nth-child(1){
+	color: transparent;
+	-webkit-text-stroke: 1px #03e9f4;
+}
+.image i:nth-child(2){
+	color: chocolate;
+	animation: animate 4s ease-out infinite;
+}
+@keyframes animate{
+	0%,100%{
+		clip-path: polygon(-30% 50%, 20% 44%, 32% 50%, 57% 60%, 70% 68%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+
+
+	}
+	50%{
+		clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+	}
+}
+.image h1{
+	font-size: 70px;
+	
+
+}
+<h1><b>FRESH</b></h1><br><br>	<b><i>C&nbsp;O&nbsp;F&nbsp;F&nbsp;E&nbsp;E</i><i>C&nbsp;O&nbsp;F&nbsp;F&nbsp;E&nbsp;E</i></b><br> <br><h1><b>IN THE MORING</b></h1>
+		

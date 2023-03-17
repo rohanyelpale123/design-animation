@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+	border-image:2px solid linear-gradeint(20deg,red,yellow);
+
+}
+.sub{
+  height: 100px;
+	width: 100px;
+	border-image:2px solid black;	
+}
+
